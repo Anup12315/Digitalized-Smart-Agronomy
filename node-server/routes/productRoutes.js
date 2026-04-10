@@ -1,7 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-const Product = require('../models/product'); // Assuming your schema is in models/product.js
+const Product = require('../models/Product'); // Assuming your schema is in models/product.js
 const router = express.Router();
 
 // Multer setup for file uploads
